@@ -1,0 +1,5 @@
+altair_saver
+jupyter
+docopt
+jupyter-book
+myst-nb
