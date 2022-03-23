@@ -1,6 +1,8 @@
-FROM jupyter/datascience-notebook
+# Author: Khalid Abdilahi
+# Date: 10 Dec 2021
 
-# COPY requirements.txt .
+FROM jupyter/datascience-notebook
+# Build image
 
 # RUN python3 -m pip install -r requirements.txt
 RUN mamba install --quiet --yes \
